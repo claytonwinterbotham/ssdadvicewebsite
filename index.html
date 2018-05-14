@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Clayton Winterbotham/ JQuery Lab</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="script/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="script/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="script/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#nav').localScroll(800);
+	
+	//.parallax(xPosition, speedFactor, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	$('#intro').parallax("50%", 0.1);
+	$('#second').parallax("50%", 0.1);
+	//$('.bg').parallax("50%", 0.4);
+    $('#third').parallax("50%", 0.1);
+    $('#fourth').parallax("50%", 0.1);
+    $('#fifth').parallax("50%", 0.1);
+    $('#sixth').parallax("50%", 0.1);
+    $('#seventh').parallax("50%", 0.1);
+    $('#eigth').parallax("50%", 0.1);
+    $('#ninth').parallax("50%", 0.1);
+    $('#tenth').parallax("50%", 0.1);
+
+})
+</script>
+</head>
+
+<body>
+	<!-- <ul id="nav">
+		<li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#second" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#third" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#fifth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	</ul> -->
+	
+	<div id="intro">
+		<div class="story">
+	    	<div class="float-right">
+			<h2>Productive and Successful SSD Student</h2>
+	        <p>The Software System Developer program at BCIT is an 8-month intensive curriculum that prepares students for a rewarding career in web development. Attending the SSD program is an exciting experience, but also a challenging one.</p> 
+
+            <p>
+            This guide provides tips on how to become a productive and successful SSD student. 
+            </p>
+            </div>
+            <img id="bcitlogo" src="images/bcit.png">
+        </div> <!--.story-->
+	</div> <!--#intro-->
+	
+	<div id="second">
+        <div class="story"><div class="bg"></div>
+	    	<div class="float-left">
+	            <h2>Sleep</h2>
+	            <p>The recommended amount of sleep for young adults is 7-9 hours. However, everyone has different goals and priorities. As a SSD student you may need to sacrifice the recommended amount of sleep sometimes in order to complete a project. At the same time, by limited your mind and body of needed rest you are sabotaging yourself in the long run. Being tired effects your ability to focus and retain information, resulting in less productivity and efficiency</p>
+	        </div>
+	    </div> <!--.story-->
+	</div> <!--#second-->
+	
+	<div id="third">
+		<div class="story">
+	    	<div class="float-left">
+	        	<h2>Nourishment</h2>
+	            <p>Life as an SSD student is filled with long hours of focus and problem solving. Please remember to nourish your self. Your mind and body requires sustainance in order to function appropriately. A snack break is also a good strategy when struggling to solve a problem. Walking away from the computer and snacking gives you a chance to regroup and think about something else if only for a few minutes.</p>
+	        </div>
+	    </div> <!--.story-->
+    </div> <!--#third-->
+    
+    <div id="fourth">
+		<div class="story">
+	    	<div class="float-right">
+			<h2>Time Management</h2>
+	        <p>Managing your time wisely is key to being a successful SSD student. Learning multiple different coding languages and frameworks can be overwhelming. Keeping a daily schedule will help organize things in your mind and daily routine. Everyone manages things differently, but the act of physically writing down a daily schedule can aid in setting and accomplishing goals. Do some research on effective time managment techniques like the <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro Technique</a></p>
+	        </div>
+	    </div> <!--.story-->
+	</div> <!--#fourth-->
+	
+	<div id="fifth">
+		<div class="story">
+            <div class="float-left">
+                <h2>Stay Focused</h2>
+                <p>As an SSD student your day will be riddled with distractions available to you at the press of a button. It is OK to take a few minutes through out the day and reward your self with social media, funny memes, or games, but coding requres hours of dedication. Moderation is key, but do not sabatoge your learning by allowing your self to be distracted easily. Techiques like the Pomodoro Technique can aid in staying focused.</p>
+            </div>
+        
+	    </div> <!--.story-->
+    </div> <!--#fifth-->
+    
+    <div id="sixth">
+            <div class="story">
+                <div class="float-right">
+                    <h2>Take Shortcuts</h2>
+                    <p>As a coder you will learn where and how to take shortcuts to save time and energy. It is important to meet deadlines and to "get it done". For example, Keyboard shortcuts can save significant time in the long run by steamlining tasks. Another example is to save code snippets, if you spent hours programming an implementation of a task or procedure you can save and reuse the code for other projects.</p>
+                </div>
+            
+            </div> <!--.story-->
+     </div> <!--#sixth -->
+
+     <div id="seventh">
+            <div class="story">
+                <div class="float-right">
+                    <h2>De-stress</h2>
+                    <p>Programming is hard. Try to take it easy on yourself. We all must learn how to cope with stress as its a normal part of life, and everyone deals with stress differently. Long term stress is harmful and can impair ones ability to learn and retain information. Nourishment and rest is necessary to help combat stress. For example, lets say a bug in your program is driving you nuts. Maybe its best to just walk away from the screen for a few minutes, regroup and try to solve it later. </p>
+                </div>
+            
+            </div> <!--.story-->
+     </div> <!--#sixth -->
+     <div id="eigth">
+            <div class="story">
+                <div class="float-left">
+                    <h2>Team Work</h2>
+                    <p>Essentially you share similiar goals with your fellow SSD classmates. Try to connect with your peers. <strong>Its OK to ask for help.</strong> Spending a year with like minded people is an incredible opportunity to network, and to create relationships. It is perhaps these very relationships that can aid with your career. Some of your peers may become future bosses, employees, and business partners. Learn from each other, and push each other to succeed.</p>
+                </div>
+            
+            </div> <!--.story-->
+     </div> <!--#eigth-->
+
+     <div id="ninth">
+            <div class="story">
+                <div class="float-left">
+                    <h2>Work Hard</h2>
+                    <p>Take advantage of every moment of this opportunity. Could you be doing more? Are you working hard enough? 8 months will go fast, and you don't want to look back with regret. This is an opportunity to show grit, and committment.</p>
+                </div>
+            
+            </div> <!--.story-->
+     </div> <!--#ninth-->
+
+     <div id="tenth">
+            <div class="story">
+                <div class="float-right">
+                    <h2>You Got This!</h2>
+                    <p>Be confident in your self. Try to enjoy the SSD experience. Being accepted into the SSD program is a proud moment and brings you one step closer to following your dreams.</p>
+                </div>
+            
+            </div> <!--.story-->
+     </div> <!--#tenth-->
+</body>
+</html>
