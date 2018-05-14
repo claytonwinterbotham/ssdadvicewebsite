@@ -6,7 +6,6 @@ This website is intended to provide tips to current and prospective BCIT SSD stu
 
 ## Features
 - Parallax 
-- JQuery Lightbox.
 - Full width images.
 
 
