@@ -2,7 +2,7 @@
 
 This website is intended to provide tips to current and prospective BCIT SSD students in order to help them succeed.
 
-**Here is a working version deployed to **
+**Here is a working version deployed to https://ssd.claytonwinterbotham.me/**
 
 ## Features
 - Parallax 
